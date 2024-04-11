@@ -1,0 +1,18 @@
+# General
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Supabase temporary files
+supabase/.temp/
+supabase/.branches/
+
+# Supabase specific environment files
+supabase/functions/.env
+
+# Editor settings
+.vscode/
+
+# Git directories (should not be included)
+.git/
